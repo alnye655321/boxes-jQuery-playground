@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    alert( "DOM Ready!" );
+    //alert( "DOM Ready!" );
 
 // var $secret = $('#secretBox');
 
@@ -18,7 +18,14 @@ $('#row4 div:nth-child(4)').css("display" , "none");
 $('.boxType1').css('background-color','white');
 $('#container div div').removeClass('boxType1');
 
-//p:nth-child(4)
+//5)
+$('#row2 div:first-child').removeClass();
+$('#row2 div:nth-child(2)').removeClass();
 
+//6)
+$('div').not('.row, #secretBox, #container').css("width" , "20px");
+
+
+//Exercise 3
 
 });
